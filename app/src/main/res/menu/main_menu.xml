@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/AFragment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Fragment A" />
+
+    <item
+        android:id="@+id/BFragment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_access_alarm_24"
+        android:title="Fragment B" />
+</menu>
